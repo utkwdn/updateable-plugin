@@ -31,7 +31,7 @@ function updateable_plugin_add_admin_menu() {
 function updateable_plugin_admin_page() {
 	?>
 	<div class="wrap">
-		<h1>Updateable Plugin</h1>
+		<h1>Updated Updateable Plugin</h1>
 		<p>This is a test plugin. Use this space to build and test features!</p>
 	</div>
 	<?php
