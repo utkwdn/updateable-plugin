@@ -7,7 +7,7 @@ function check_for_plugin_update( $transient ) {
 	// Update variables with plugin specifics
 	$github_org = 'utkwdn';
 	$directory = 'updateable-plugin';
-	$entry_file = 'updateable-plugin.php'
+	$entry_file = 'updateable-plugin.php';
 
 	// If no update transient or transient is empty, return.
 	if ( empty( $transient->checked ) ) {
