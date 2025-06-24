@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Updateable Plugin
  * Description: A simple plugin for testing updates.
- * Version: 1.0.4
+ * Version: 1.0.5
  * Author: Mark
  * License: GPL2
  */
@@ -31,7 +31,7 @@ function updateable_plugin_add_admin_menu() {
 function updateable_plugin_admin_page() {
 	?>
 	<div class="wrap">
-		<h1>Updateable Plugin</h1>
+		<h1>Updateable Plugin (Updated 6/24/25)</h1>
 		<p>This is a test plugin. Use this space to build and test features!</p>
 	</div>
 	<?php

@@ -2,7 +2,7 @@
 Contributors:      The University of Tennessee, Knoxville
 Tags:              test
 Tested up to:      6.7
-Stable tag:        1.0.4
+Stable tag:        1.0.5
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,10 @@ e.g.
 1. Activate the plugin through the 'Plugins' screen in WordPress
 
 == Changelog ==
+
+= 1.0.5 =
+* Update heading
+* Bump Version Number
 
 = 1.0.4 =
 * Add readme.txt
