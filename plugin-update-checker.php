@@ -15,7 +15,7 @@ function check_for_plugin_update( $transient ) {
 	}
 
 	// Plugin slug, path to the main plugin file, and the URL of the update server
-	$plugin_slug = "{$directory}/{$entry_file}";
+	$plugin_slug = "{ $directory }/{ $entry_file }";
 	$update_url = "https://raw.githubusercontent.com/{$github_org}/{$directory}/refs/heads/main/update-info.json";
 
 	// Fetch update information from your server
@@ -36,7 +36,7 @@ function check_for_plugin_update( $transient ) {
 			'url'         => $update_info->url,
 			'package'     => $update_info->package, // URL of the plugin zip file
 		);
-		$transient->response[ $plugin_slug ] = (object) $plugin_data;
+		$transient->response[ $plugin_slug ] = ( object ) $plugin_data;
 	}
 
 	return $transient;
